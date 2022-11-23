@@ -1,0 +1,351 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+html {
+  background-color: #ffffff;
+  background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23b7b7b7' fill-opacity='0.4'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+h1,
+h2,
+p,
+a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 1%;
+}
+a {
+  text-decoration: none;
+  margin-right: 1%;
+}
+/*Header*/
+header {
+  background: linear-gradient(#000000, #2a2b2c, #575858);
+  text-align: center;
+  color: rgb(223, 211, 211);
+  padding: 0.1%;
+}
+.header-cuadro {
+  width: 50%;
+  margin-left: 25%;
+  padding: 1%;
+}
+.botones-header {
+  color: rgb(219, 21, 21);
+}
+/*Barra-Navegacion*/
+.barberos-logo {
+  margin-top: 10%;
+  text-align: center;
+  color: rgb(41, 21, 219);
+  font-size: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.barberos-logo:hover {
+  color: rgb(219, 21, 21);
+}
+.barra-nav {
+  margin-top: 10%;
+  text-align: center;
+  list-style: none;
+}
+.barra-nav :hover {
+  color: rgb(20, 23, 172);
+}
+/*Pagina-Principal*/
+.titulo-inicio {
+  text-align: center;
+  margin-top: 10%;
+}
+.titulo-inicio a:hover {
+  color: rgb(20, 23, 172);
+}
+.img-inicio {
+  text-align: center;
+}
+.img-inicio img:hover {
+  filter: brightness(0.1);
+  transition: all 1s;
+}
+.flex-container-inicio {
+  display: flex;
+  padding: 1%;
+  width: 95%;
+  margin-top: 10%;
+  margin-left: 1%;
+}
+.encontranos-incio-texto,
+.somos_barberos-inicio {
+  color: rgb(219, 21, 21);
+}
+.encontranos-incio-texto:hover,
+.somos_barberos-inicio:hover {
+  color: rgb(20, 23, 172);
+}
+#mapa-inicio,
+#mapa-contacto {
+  text-align: center;
+}
+.mapa-inicio,
+#mapa-contacto {
+  margin-bottom: 2%;
+}
+/*Pagina-Escuela*/
+.titulo-escuela {
+  color: rgb(219, 21, 21);
+  text-align: center;
+  margin-top: 10%;
+}
+.titulo-escuela :hover {
+  color: rgb(20, 23, 172);
+}
+.capacitaciones-escuela {
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.capacitaciones-escuela img:hover {
+  filter: brightness(0.1);
+  transition: all 1s;
+}
+/*Pagina-Servicios*/
+.titulo-servicios {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(20, 23, 172);
+  text-align: center;
+  margin-top: 10%;
+}
+.titulo-servicios:hover {
+  color: rgb(219, 21, 21);
+}
+.nuestros-servicios {
+  color: black;
+}
+.nuestros-servicios:hover {
+  color: rgb(219, 21, 21);
+}
+.nuestros_servicios-servicios {
+  color: rgb(219, 21, 21);
+}
+.nuestros_servicios-servicios:hover {
+  color: rgb(20, 23, 172);
+}
+.grid-container-servicios {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+.corte-servicios {
+  background-color: rgba(13, 204, 188, 0.233);
+  text-align: center;
+  width: 96%;
+  margin: 1% 2% 2% 2%;
+  font-size: 25px;
+}
+.cortes-texto-servicios {
+  margin-top: 6%;
+  margin-bottom: 6%;
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.sub_titulo-servicios {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(219, 21, 21);
+}
+.sub_titulo-servicios:hover {
+  color: rgb(20, 23, 172);
+}
+/*Pagina-Nosotros*/
+.titulo-nosotros {
+  text-align: center;
+  margin-top: 10%;
+}
+.titulo-nosotros a:hover {
+  color: rgb(20, 23, 172);
+}
+.sobre-nosotros {
+  color: rgb(0, 0, 0);
+}
+.sobre-notros:hover {
+  color: rgb(219, 21, 21);
+}
+.sobre-nosotros {
+  color: black;
+}
+.sobre-nosotros:hover {
+  color: rgb(219, 21, 21);
+}
+.nosotros-nosotros {
+  color: rgb(219, 21, 21);
+}
+.nosotros-nosotros:hover {
+  color: rgb(20, 23, 172);
+}
+.texto-nosotros {
+  background-color: rgba(0, 0, 0, 0.178);
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.sobre-nosotros-texto {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: black;
+  margin-top: 3%;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+.texto1-nosotros:hover {
+  color: rgb(20, 23, 172);
+}
+.texto2-nosotros:hover {
+  color: rgb(219, 21, 21);
+}
+.texto3-nosotros:hover {
+  color: rgb(20, 23, 172);
+}
+.boton-nosotros {
+  text-align: center;
+  margin-top: 3%;
+  margin-left: 24%;
+  margin-bottom: 3%;
+  color: white;
+  padding: 3%;
+  border-radius: 15px;
+}
+#boton-nosotros {
+  background: linear-gradient(#e66465, #9198e5);
+}
+#boton-nosotros:hover {
+  filter: brightness(0.7);
+  transition: all 1s;
+}
+/*Pagina-Contacto*/
+.formulario-contacto {
+  text-align: center;
+  padding: 15%;
+}
+.formulario1-contacto {
+  background-color: rgba(217 203 203 / 23%);
+  text-align: center;
+}
+.enviar-formulario {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.formulario-interior {
+  margin-top: 5%;
+}
+#input {
+  background-color: rgba(255, 255, 255, 0.432);
+}
+/*Footer*/
+footer {
+  background: linear-gradient(#575858, #2a2b2c, #000000);
+}
+.footer-cuadro a i {
+  color: rgb(255, 255, 255);
+  font-size: 1.8rem;
+  padding: 1%;
+}
+.footer-iconos {
+  text-align: center;
+}
+.footer-iconos :hover {
+  text-align: center;
+  color: brown;
+}
+#footer-icono-whatsapp:hover {
+  color: rgb(20, 23, 172);
+}
+/*Cuando la pantalla es mayor a 768px, pasa esto*/
+@media (min-width: 768px) {
+  /*Barra-Navegacion*/
+  .barberos-logo {
+    margin-top: 5%;
+  }
+  .barra-nav {
+    margin-top: 5%;
+  }
+  /*Pagina-Principal*/
+  .titulo-inicio {
+    margin-top: 5%;
+  }
+  .flex-container-inicio {
+    display: flex;
+    width: 95%;
+    margin-top: 5%;
+    margin-left: 1%;
+  }
+  #mapa-inicio {
+    margin-top: 5%;
+  }
+  .mapa-inicio,
+  .mapa-contacto {
+    width: 85%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  /*Pagina-Escuela*/
+  .titulo-escuela {
+    margin-top: 5%;
+  }
+  .capacitaciones-escuela {
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+  /*Pagina-Servicios*/
+  .titulo-servicios {
+    margin-top: 5%;
+  }
+  .grid-container-servicios {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  .corte-servicios {
+    width: 96%;
+    margin: 1% 2% 2% 2%;
+  }
+  .cortes-texto-servicios {
+    margin-top: 6%;
+    margin-bottom: 6%;
+    font-size: 20px;
+  }
+  /*Pagina-Nosotros*/
+  .titulo-nosotros {
+    margin-top: 5%;
+  }
+  .texto-nosotros {
+    width: 96%;
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-bottom: 5%;
+  }
+  .sobre-nosotros-texto {
+    margin-top: 3%;
+    margin-right: 2%;
+    margin-left: 2%;
+  }
+  .boton-nosotros {
+    margin-top: 3%;
+    margin-left: 41%;
+    margin-bottom: 3%;
+    padding: 1%;
+  }
+  /*Pagina-Contacto*/
+  .formulario-contacto {
+    margin-top: 5%;
+    padding: 0;
+  }
+  .formulario1-contacto {
+    width: 30%;
+    margin-left: 35%;
+    margin-bottom: 5%;
+  }
+  .mapa-contacto {
+    margin-top: 1%;
+  }
+}
