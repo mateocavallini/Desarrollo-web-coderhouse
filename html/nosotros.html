@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
     <link rel="stylesheet" href="/css/estilos.css" />
     <link
       rel="stylesheet"
@@ -15,63 +22,79 @@
   </head>
   <body>
     <header>
-      <div class="header-cuadro">
-        <h5>Martes a viernes de 10 a 20 Hs. Sábados de 10 a 18 Hs.</h5>
-      </div>
-    </header>
-    <div class="logo">
-      <p class="barberos-logo">BARBEROS</p>
-    </div>
-    <div class="barra-busqueda">
-      <nav>
-        <ul class="barra-nav">
-          <li>
-            <div class="barra-nav">
-              <h3>
-                <a href="/index.html" class="botones-header">Inicio</a>
-                <a href="escuela.html" class="botones-header">Escuela</a>
-                <a href="servicios.html" class="botones-header">Servicios</a>
-                <a href="nosotros.html" class="botones-header">Nosotros</a>
-                <a href="contacto.html" class="botones-header">Contactanos</a>
-              </h3>
-            </div>
-          </li>
-        </ul>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="/index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="escuela.html">Escuela</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contactanos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
-    </div>
-    <div class="titulo-nosotros">
-      <h2 class="sobre-nosotros">SOBRE</h2>
-      <h1 class="nosotros-nosotros">NOSOTROS</h1>
-    </div>
-    <section class="texto-nosotros">
-      <div class="sobre-nosotros-texto">
-        <p class="texto1-nosotros">
-          Todo comenzó en barrio Echesortu de la ciudad de Rosario, un sillón de
-          barbero, una navaja, y la intriga de saber qué había ocurrido con las
-          tradicionales barberías de antaño; en ese momento (año 2008) no estaba
-          el auge que conocemos hoy.
-        </p>
-        <p class="texto2-nosotros">
-          En esa búsqueda de respuestas sobre el oficio, Franco Paschetto
-          abriría en barrio Abasto lo que fue el comienzo de todo, en ese
-          momento “Un Mundo de Pelos, peluquería con estilo”, una peluquería
-          unisex que de a poco se fue afianzando con el concepto de barbería.
-          Los clientes fueron asimilando éste camino y comenzaron a acudir con
-          mayor frecuencia el público masculino.
-        </p>
-        <p class="texto3-nosotros">
-          En el año 2015 decidimos dar el paso final y transformarnos en
-          Barberos, barbería y peluquería, realizando servicios de corte y
-          afeitado tradicional y contemporáneo y sumando servicios y
-          profesionales con el correr del tiempo, generando un espacio único
-          donde el cuidado de la imagen, el buen servicio y el disfrute de la
-          estadía sean característicos.
-        </p>
-        <button class="boton-nosotros" id="boton-nosotros">
-          VER HISTORIA COMPLETA
-        </button>
+    </header>
+    <main>
+      <div class="logo">
+        <p class="barberos-logo">BARBEROS</p>
       </div>
-    </section>
+      <div class="titulo-nosotros">
+        <h2 class="sobre-nosotros">SOBRE</h2>
+        <h1 class="nosotros-nosotros">NOSOTROS</h1>
+      </div>
+      <section class="texto-nosotros">
+        <div class="sobre-nosotros-texto">
+          <p class="texto1-nosotros">
+            Todo comenzó en barrio Echesortu de la ciudad de Rosario, un sillón
+            de barbero, una navaja, y la intriga de saber qué había ocurrido con
+            las tradicionales barberías de antaño; en ese momento (año 2008) no
+            estaba el auge que conocemos hoy.
+          </p>
+          <p class="texto2-nosotros">
+            En esa búsqueda de respuestas sobre el oficio, Franco Paschetto
+            abriría en barrio Abasto lo que fue el comienzo de todo, en ese
+            momento “Un Mundo de Pelos, peluquería con estilo”, una peluquería
+            unisex que de a poco se fue afianzando con el concepto de barbería.
+            Los clientes fueron asimilando éste camino y comenzaron a acudir con
+            mayor frecuencia el público masculino.
+          </p>
+          <p class="texto3-nosotros">
+            En el año 2015 decidimos dar el paso final y transformarnos en
+            Barberos, barbería y peluquería, realizando servicios de corte y
+            afeitado tradicional y contemporáneo y sumando servicios y
+            profesionales con el correr del tiempo, generando un espacio único
+            donde el cuidado de la imagen, el buen servicio y el disfrute de la
+            estadía sean característicos.
+          </p>
+          <button class="boton-nosotros" id="boton-nosotros">
+            VER HISTORIA COMPLETA
+          </button>
+        </div>
+      </section>
+    </main>
     <footer>
       <div class="footer-cuadro">
         <div class="footer-iconos">
@@ -88,4 +111,9 @@
       </div>
     </footer>
   </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"
+  ></script>
 </html>
