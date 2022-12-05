@@ -1,0 +1,369 @@
+$color-body: #ffffff;
+$color-header: linear-gradient(#017a8a, #17555e);
+$color-servicios: rgba(13, 204, 188, 0.233);
+$color-nosotros: rgba(0, 0, 0, 0.178);
+$color-boton--nosotros: linear-gradient(#e66465, #9198e5);
+$color-contacto: rgba(217 203 203 / 23%);
+$color-input: rgba(255, 255, 255, 0.432);
+$blanco: white;
+$rojo: rgb(219, 21, 21);
+$azul: rgb(41, 21, 219);
+$negro: black;
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  background-color: $color-body;
+  background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23b7b7b7' fill-opacity='0.4'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+h1,
+h2,
+p,
+a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 1%;
+}
+a {
+  text-decoration: none;
+  margin-right: 1%;
+}
+img {
+  max-width: 100%;
+}
+/*Header*/
+header {
+  background: $color-header;
+  text-align: center;
+  padding: 0.1%;
+}
+.nav-link {
+  color: $blanco;
+}
+.nav-link:hover {
+  color: $rojo;
+}
+/*Barra-Navegacion*/
+.barberos-logo {
+  margin-top: 6%;
+  text-align: center;
+  color: $azul;
+  font-size: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.barberos-logo:hover {
+  color: $rojo;
+}
+.barra-nav {
+  margin-top: 10%;
+  text-align: center;
+  list-style: none;
+}
+.barra-nav :hover {
+  color: $azul;
+}
+/*Pagina-Principal*/
+.titulo-inicio {
+  text-align: center;
+  margin-top: 10%;
+}
+.titulo-inicio a:hover {
+  color: $azul;
+}
+.img-inicio {
+  text-align: center;
+}
+.img-inicio img:hover {
+  filter: brightness(0.1);
+  transition: all 1s;
+}
+.flex-container-inicio {
+  display: flex;
+  padding: 1%;
+  width: 95%;
+  margin-top: 10%;
+  margin-left: 1%;
+}
+.encontranos-incio-texto,
+.somos_barberos-inicio {
+  color: $rojo;
+}
+.encontranos-incio-texto:hover,
+.somos_barberos-inicio:hover {
+  color: $azul;
+}
+#mapa-inicio,
+#mapa-contacto {
+  text-align: center;
+}
+.mapa-inicio,
+#mapa-contacto {
+  margin-bottom: 2%;
+}
+/*Pagina-Escuela*/
+.titulo-escuela {
+  color: $rojo;
+  text-align: center;
+  margin-top: 10%;
+}
+.titulo-escuela :hover {
+  color: $azul;
+}
+.capacitaciones-escuela {
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.capacitaciones-escuela img:hover {
+  filter: brightness(0.1);
+  transition: all 1s;
+}
+/*Pagina-Servicios*/
+.titulo-servicios {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: $azul;
+  text-align: center;
+  margin-top: 10%;
+}
+.titulo-servicios:hover {
+  color: $rojo;
+}
+.nuestros-servicios {
+  color: $negro;
+}
+.nuestros-servicios:hover {
+  color: $rojo;
+}
+.nuestros_servicios-servicios {
+  color: $rojo;
+}
+.nuestros_servicios-servicios:hover {
+  color: $azul;
+}
+.grid-container-servicios {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+.corte-servicios {
+  background-color: $color-servicios;
+  text-align: center;
+  width: 96%;
+  margin: 1% 2% 2% 2%;
+  font-size: 25px;
+  border-radius: 15px;
+}
+.cortes-texto-servicios {
+  margin-top: 6%;
+  margin-bottom: 6%;
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.sub_titulo-servicios {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: $rojo;
+}
+.sub_titulo-servicios:hover {
+  color: $azul;
+}
+/*Pagina-Nosotros*/
+.titulo-nosotros {
+  text-align: center;
+  margin-top: 10%;
+  a:hover {
+    color: $azul;
+  }
+}
+.titulo-nosotros .sobre-nosotros {
+  color: $negro;
+}
+
+.sobre-nosotros:hover {
+  color: $rojo;
+}
+.nosotros-nosotros {
+  color: $rojo;
+}
+.nosotros-nosotros:hover {
+  color: $azul;
+}
+.texto-nosotros {
+  background-color: $color-nosotros;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  border-radius: 15px;
+}
+.sobre-nosotros-texto {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: $negro;
+  margin-top: 3%;
+  margin-right: 2%;
+  margin-left: 2%;
+  text-align: justify;
+}
+.texto1-nosotros,
+.texto2-nosotros,
+.texto3-nosotros {
+  padding: 2%;
+}
+.texto1-nosotros:hover {
+  color: $azul;
+}
+.texto2-nosotros:hover {
+  color: $rojo;
+}
+.texto3-nosotros:hover {
+  color: $azul;
+}
+.boton-nosotros {
+  text-align: center;
+  margin-top: 3%;
+  margin-left: 24%;
+  margin-bottom: 3%;
+  color: $blanco;
+  padding: 3%;
+  border-radius: 15px;
+}
+#boton-nosotros {
+  background: $color-boton--nosotros;
+}
+#boton-nosotros:hover {
+  filter: brightness(0.7);
+  transition: all 1s;
+}
+/*Pagina-Contacto*/
+.formulario-contacto {
+  text-align: center;
+  padding: 15%;
+}
+.formulario1-contacto {
+  background-color: $color-contacto;
+  text-align: center;
+  border-radius: 15px;
+}
+.enviar-formulario {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.formulario-interior {
+  margin-top: 5%;
+}
+#input {
+  background-color: $color-input;
+}
+/*Footer*/
+footer {
+  background: $color-header;
+}
+.footer-cuadro a i {
+  color: $blanco;
+  font-size: 1.8rem;
+  padding: 1%;
+}
+.footer-iconos {
+  text-align: center;
+}
+.footer-iconos :hover {
+  text-align: center;
+  color: $rojo;
+}
+#footer-icono-whatsapp:hover {
+  color: $azul;
+}
+/*Cuando la pantalla es mayor a 768px, pasa esto*/
+@media (min-width: 768px) {
+  /*Header*/
+  .toggle-menu {
+    display: none;
+  }
+  /*Barra-Navegacion*/
+  .barra-nav {
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+  .barra-nav {
+    margin-top: 5%;
+  }
+  /*Pagina-Principal*/
+  .titulo-inicio {
+    margin-top: 5%;
+  }
+  .flex-container-inicio {
+    display: flex;
+    width: 95%;
+    margin-top: 5%;
+    margin-left: 1%;
+  }
+  #mapa-inicio {
+    margin-top: 5%;
+  }
+  .mapa-inicio,
+  .mapa-contacto {
+    width: 85%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  /*Pagina-Escuela*/
+  .titulo-escuela {
+    margin-top: 5%;
+  }
+  .capacitaciones-escuela {
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+  /*Pagina-Servicios*/
+  .titulo-servicios {
+    margin-top: 5%;
+  }
+  .grid-container-servicios {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  .corte-servicios {
+    width: 96%;
+    margin: 1% 2% 2% 2%;
+  }
+  .cortes-texto-servicios {
+    margin-top: 6%;
+    margin-bottom: 6%;
+    font-size: 20px;
+  }
+  /*Pagina-Nosotros*/
+  .titulo-nosotros {
+    margin-top: 5%;
+  }
+  .texto-nosotros {
+    width: 96%;
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-bottom: 5%;
+  }
+  .sobre-nosotros-texto {
+    margin-top: 3%;
+    margin-right: 2%;
+    margin-left: 2%;
+  }
+  .boton-nosotros {
+    margin-top: 3%;
+    margin-left: 41%;
+    margin-bottom: 3%;
+    padding: 1%;
+  }
+  /*Pagina-Contacto*/
+  .formulario-contacto {
+    margin-top: 5%;
+    padding: 0;
+  }
+  .formulario1-contacto {
+    width: 30%;
+    margin-left: 35%;
+    margin-bottom: 5%;
+  }
+  .mapa-contacto {
+    margin-top: 1%;
+  }
+}

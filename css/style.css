@@ -2,12 +2,14 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   display: grid;
   grid-template-rows: auto 1fr auto;
   background-color: #ffffff;
   background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23b7b7b7' fill-opacity='0.4'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
+
 h1,
 h2,
 p,
@@ -15,25 +17,31 @@ a {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 1%;
 }
+
 a {
   text-decoration: none;
   margin-right: 1%;
 }
+
 img {
   max-width: 100%;
 }
+
 /*Header*/
 header {
   background: linear-gradient(#017a8a, #17555e);
   text-align: center;
   padding: 0.1%;
 }
+
 .nav-link {
   color: white;
 }
+
 .nav-link:hover {
   color: rgb(219, 21, 21);
 }
+
 /*Barra-Navegacion*/
 .barberos-logo {
   margin-top: 6%;
@@ -42,32 +50,40 @@ header {
   font-size: 50px;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
+
 .barberos-logo:hover {
   color: rgb(219, 21, 21);
 }
+
 .barra-nav {
   margin-top: 10%;
   text-align: center;
   list-style: none;
 }
+
 .barra-nav :hover {
-  color: rgb(20, 23, 172);
+  color: rgb(41, 21, 219);
 }
+
 /*Pagina-Principal*/
 .titulo-inicio {
   text-align: center;
   margin-top: 10%;
 }
+
 .titulo-inicio a:hover {
-  color: rgb(20, 23, 172);
+  color: rgb(41, 21, 219);
 }
+
 .img-inicio {
   text-align: center;
 }
+
 .img-inicio img:hover {
   filter: brightness(0.1);
   transition: all 1s;
 }
+
 .flex-container-inicio {
   display: flex;
   padding: 1%;
@@ -75,62 +91,77 @@ header {
   margin-top: 10%;
   margin-left: 1%;
 }
+
 .encontranos-incio-texto,
 .somos_barberos-inicio {
   color: rgb(219, 21, 21);
 }
+
 .encontranos-incio-texto:hover,
 .somos_barberos-inicio:hover {
-  color: rgb(20, 23, 172);
+  color: rgb(41, 21, 219);
 }
+
 #mapa-inicio,
 #mapa-contacto {
   text-align: center;
 }
+
 .mapa-inicio,
 #mapa-contacto {
   margin-bottom: 2%;
 }
+
 /*Pagina-Escuela*/
 .titulo-escuela {
   color: rgb(219, 21, 21);
   text-align: center;
   margin-top: 10%;
 }
+
 .titulo-escuela :hover {
-  color: rgb(20, 23, 172);
+  color: rgb(41, 21, 219);
 }
+
 .capacitaciones-escuela {
   text-align: center;
   margin-top: 10%;
   margin-bottom: 10%;
 }
+
 .capacitaciones-escuela img:hover {
   filter: brightness(0.1);
   transition: all 1s;
 }
+
 /*Pagina-Servicios*/
 .titulo-servicios {
   font-family: Georgia, "Times New Roman", Times, serif;
-  color: rgb(20, 23, 172);
+  color: rgb(41, 21, 219);
   text-align: center;
   margin-top: 10%;
 }
+
 .titulo-servicios:hover {
   color: rgb(219, 21, 21);
 }
+
 .nuestros-servicios {
   color: black;
 }
+
 .nuestros-servicios:hover {
   color: rgb(219, 21, 21);
 }
+
 .nuestros_servicios-servicios {
   color: rgb(219, 21, 21);
 }
+
 .nuestros_servicios-servicios:hover {
-  color: rgb(20, 23, 172);
+  color: rgb(41, 21, 219);
 }
+
 .grid-container-servicios {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -138,6 +169,7 @@ header {
   margin-top: 10%;
   margin-bottom: 5%;
 }
+
 .corte-servicios {
   background-color: rgba(13, 204, 188, 0.233);
   text-align: center;
@@ -146,49 +178,55 @@ header {
   font-size: 25px;
   border-radius: 15px;
 }
+
 .cortes-texto-servicios {
   margin-top: 6%;
   margin-bottom: 6%;
   font-size: 20px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
+
 .sub_titulo-servicios {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: rgb(219, 21, 21);
 }
+
 .sub_titulo-servicios:hover {
-  color: rgb(20, 23, 172);
+  color: rgb(41, 21, 219);
 }
+
 /*Pagina-Nosotros*/
 .titulo-nosotros {
   text-align: center;
   margin-top: 10%;
 }
 .titulo-nosotros a:hover {
-  color: rgb(20, 23, 172);
+  color: rgb(41, 21, 219);
 }
-.sobre-nosotros {
-  color: rgb(0, 0, 0);
-}
-.sobre-notros:hover {
-  color: rgb(219, 21, 21);
+
+.titulo-nosotros .sobre-nosotros {
+  color: black;
 }
 
 .sobre-nosotros:hover {
   color: rgb(219, 21, 21);
 }
+
 .nosotros-nosotros {
   color: rgb(219, 21, 21);
 }
+
 .nosotros-nosotros:hover {
-  color: rgb(20, 23, 172);
+  color: rgb(41, 21, 219);
 }
+
 .texto-nosotros {
   background-color: rgba(0, 0, 0, 0.178);
   margin-top: 10%;
   margin-bottom: 10%;
   border-radius: 15px;
 }
+
 .sobre-nosotros-texto {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: black;
@@ -197,20 +235,25 @@ header {
   margin-left: 2%;
   text-align: justify;
 }
+
 .texto1-nosotros,
 .texto2-nosotros,
 .texto3-nosotros {
   padding: 2%;
 }
+
 .texto1-nosotros:hover {
-  color: rgb(20, 23, 172);
+  color: rgb(41, 21, 219);
 }
+
 .texto2-nosotros:hover {
   color: rgb(219, 21, 21);
 }
+
 .texto3-nosotros:hover {
-  color: rgb(20, 23, 172);
+  color: rgb(41, 21, 219);
 }
+
 .boton-nosotros {
   text-align: center;
   margin-top: 3%;
@@ -220,51 +263,65 @@ header {
   padding: 3%;
   border-radius: 15px;
 }
+
 #boton-nosotros {
   background: linear-gradient(#e66465, #9198e5);
 }
+
 #boton-nosotros:hover {
   filter: brightness(0.7);
   transition: all 1s;
 }
+
 /*Pagina-Contacto*/
 .formulario-contacto {
   text-align: center;
   padding: 15%;
 }
+
 .formulario1-contacto {
-  background-color: rgba(217 203 203 / 23%);
+  background-color: rgba(217, 203, 203, 0.23);
   text-align: center;
+  border-radius: 15px;
 }
+
 .enviar-formulario {
   margin-top: 5%;
   margin-bottom: 5%;
 }
+
 .formulario-interior {
   margin-top: 5%;
 }
+
 #input {
   background-color: rgba(255, 255, 255, 0.432);
 }
+
 /*Footer*/
 footer {
   background: linear-gradient(#017a8a, #17555e);
 }
+
 .footer-cuadro a i {
-  color: rgb(255, 255, 255);
+  color: white;
   font-size: 1.8rem;
   padding: 1%;
 }
+
 .footer-iconos {
   text-align: center;
 }
+
 .footer-iconos :hover {
   text-align: center;
-  color: brown;
+  color: rgb(219, 21, 21);
 }
+
 #footer-icono-whatsapp:hover {
-  color: rgb(20, 23, 172);
+  color: rgb(41, 21, 219);
 }
+
 /*Cuando la pantalla es mayor a 768px, pasa esto*/
 @media (min-width: 768px) {
   /*Header*/
@@ -358,3 +415,5 @@ footer {
     margin-top: 1%;
   }
 }
+
+/*# sourceMappingURL=style.css.map */
