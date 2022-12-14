@@ -55,16 +55,6 @@ header {
   color: rgb(219, 21, 21);
 }
 
-.barra-nav {
-  margin-top: 10%;
-  text-align: center;
-  list-style: none;
-}
-
-.barra-nav :hover {
-  color: rgb(41, 21, 219);
-}
-
 /*Pagina-Principal*/
 .titulo-inicio {
   text-align: center;
@@ -324,18 +314,6 @@ footer {
 
 /*Cuando la pantalla es mayor a 768px, pasa esto*/
 @media (min-width: 768px) {
-  /*Header*/
-  .toggle-menu {
-    display: none;
-  }
-  /*Barra-Navegacion*/
-  .barra-nav {
-    margin-top: 3%;
-    margin-bottom: 3%;
-  }
-  .barra-nav {
-    margin-top: 5%;
-  }
   /*Pagina-Principal*/
   .titulo-inicio {
     margin-top: 5%;
