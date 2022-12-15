@@ -1,0 +1,80 @@
+@media (min-width: 768px) {
+  /*Pagina-Principal*/
+  .titulo-inicio {
+    margin-top: 5%;
+  }
+  .flex-container-inicio {
+    display: flex;
+    width: 95%;
+    margin-top: 5%;
+    margin-left: 1%;
+  }
+  #mapa-inicio {
+    margin-top: 5%;
+  }
+  .mapa-inicio,
+  .mapa-contacto {
+    width: 85%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  /*Pagina-Escuela*/
+  .titulo-escuela {
+    margin-top: 5%;
+  }
+  .capacitaciones-escuela {
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+  /*Pagina-Servicios*/
+  .titulo-servicios {
+    margin-top: 5%;
+  }
+  .grid-container-servicios {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  .corte-servicios {
+    width: 96%;
+    margin: 1% 2% 2% 2%;
+  }
+  .cortes-texto-servicios {
+    margin-top: 6%;
+    margin-bottom: 6%;
+    font-size: 20px;
+  }
+  /*Pagina-Nosotros*/
+  .titulo-nosotros {
+    margin-top: 5%;
+  }
+  .texto-nosotros {
+    width: 96%;
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-bottom: 5%;
+  }
+  .sobre-nosotros-texto {
+    margin-top: 3%;
+    margin-right: 2%;
+    margin-left: 2%;
+  }
+  .boton-nosotros {
+    margin-top: 3%;
+    margin-left: 41%;
+    margin-bottom: 3%;
+    padding: 1%;
+  }
+  /*Pagina-Contacto*/
+  .formulario-contacto {
+    margin-top: 5%;
+    padding: 0;
+  }
+  .formulario1-contacto {
+    width: 30%;
+    margin-left: 35%;
+    margin-bottom: 5%;
+  }
+  .mapa-contacto {
+    margin-top: 1%;
+  }
+}

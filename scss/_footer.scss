@@ -1,0 +1,19 @@
+footer {
+  background: $color-header;
+}
+.footer-cuadro a i {
+  color: $blanco;
+  font-size: 1.8rem;
+  padding: 1%;
+}
+.footer-iconos {
+  text-align: center;
+  & :hover {
+    text-align: center;
+    color: $rojo;
+  }
+}
+
+#footer-icono-whatsapp:hover {
+  color: $azul;
+}

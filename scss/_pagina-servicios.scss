@@ -1,0 +1,40 @@
+.titulo-servicios {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: $azul;
+  text-align: center;
+  margin-top: 10%;
+  &:hover {
+    color: $rojo;
+  }
+}
+
+.nuestros-servicios {
+  color: $negro;
+  &:hover {
+    color: $rojo;
+  }
+}
+
+.nuestros_servicios-servicios {
+  color: $rojo;
+  &:hover {
+    color: $azul;
+  }
+}
+
+.grid-container-servicios {
+  @include grid-container-servicios;
+}
+.corte-servicios {
+  @include corte-servicios;
+}
+.cortes-texto-servicios {
+  @include cortes-texto;
+}
+.sub_titulo-servicios {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: $rojo;
+  &:hover {
+    color: $azul;
+  }
+}

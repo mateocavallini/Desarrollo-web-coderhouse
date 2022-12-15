@@ -1,0 +1,33 @@
+.titulo-inicio {
+  text-align: center;
+  margin-top: 10%;
+}
+.titulo-inicio a:hover {
+  color: $azul;
+}
+.img-inicio {
+  text-align: center;
+}
+.img-inicio img:hover {
+  filter: brightness(0.1);
+  transition: all 1s;
+}
+.flex-container-inicio {
+  @include flex-container-inicio;
+}
+.encontranos-incio-texto,
+.somos_barberos-inicio {
+  color: $rojo;
+}
+.encontranos-incio-texto:hover,
+.somos_barberos-inicio:hover {
+  color: $azul;
+}
+#mapa-inicio,
+#mapa-contacto {
+  text-align: center;
+}
+.mapa-inicio,
+#mapa-contacto {
+  margin-bottom: 2%;
+}

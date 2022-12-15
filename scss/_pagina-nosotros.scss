@@ -1,0 +1,51 @@
+.titulo-nosotros {
+  text-align: center;
+  margin-top: 10%;
+  a:hover {
+    color: $azul;
+  }
+}
+.titulo-nosotros .sobre-nosotros {
+  color: $negro;
+}
+
+.sobre-nosotros:hover {
+  color: $rojo;
+}
+.nosotros-nosotros {
+  color: $rojo;
+  &:hover {
+    color: $azul;
+  }
+}
+
+.texto-nosotros {
+  @include texto-nosotros;
+}
+.sobre-nosotros-texto {
+  @include sobre-nosotros;
+}
+.texto1-nosotros,
+.texto2-nosotros,
+.texto3-nosotros {
+  padding: 2%;
+}
+.texto1-nosotros:hover {
+  color: $azul;
+}
+.texto2-nosotros:hover {
+  color: $rojo;
+}
+.texto3-nosotros:hover {
+  color: $azul;
+}
+.boton-nosotros {
+  @include boton-nosotros;
+}
+#boton-nosotros {
+  background: $color-boton--nosotros;
+  &:hover {
+    filter: brightness(0.7);
+    transition: all 1s;
+  }
+}

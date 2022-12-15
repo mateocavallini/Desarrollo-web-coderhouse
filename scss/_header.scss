@@ -1,0 +1,9 @@
+header {
+  @include header;
+}
+.nav-link {
+  color: $blanco;
+  &:hover {
+    color: $rojo;
+  }
+}

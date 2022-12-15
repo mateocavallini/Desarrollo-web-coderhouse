@@ -1,0 +1,18 @@
+.titulo-escuela {
+  color: $rojo;
+  text-align: center;
+  margin-top: 10%;
+  &:hover {
+    color: $azul;
+  }
+}
+
+.capacitaciones-escuela {
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.capacitaciones-escuela img:hover {
+  filter: brightness(0.1);
+  transition: all 1s;
+}

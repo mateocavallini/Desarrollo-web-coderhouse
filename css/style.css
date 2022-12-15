@@ -1,13 +1,41 @@
+header {
+  background: linear-gradient(#017a8a, #17555e);
+  text-align: center;
+  padding: 0.1%;
+}
+
+.nav-link {
+  color: white;
+}
+.nav-link:hover {
+  color: rgb(219, 21, 21);
+}
+
+footer {
+  background: linear-gradient(#017a8a, #17555e);
+}
+
+.footer-cuadro a i {
+  color: white;
+  font-size: 1.8rem;
+  padding: 1%;
+}
+
+.footer-iconos {
+  text-align: center;
+}
+.footer-iconos :hover {
+  text-align: center;
+  color: rgb(219, 21, 21);
+}
+
+#footer-icono-whatsapp:hover {
+  color: rgb(41, 21, 219);
+}
+
 * {
   margin: 0;
   padding: 0;
-}
-
-body {
-  display: grid;
-  grid-template-rows: auto 1fr auto;
-  background-color: #ffffff;
-  background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23b7b7b7' fill-opacity='0.4'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
 
 h1,
@@ -27,22 +55,13 @@ img {
   max-width: 100%;
 }
 
-/*Header*/
-header {
-  background: linear-gradient(#017a8a, #17555e);
-  text-align: center;
-  padding: 0.1%;
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  background-color: #ffffff;
+  background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23b7b7b7' fill-opacity='0.4'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }
 
-.nav-link {
-  color: white;
-}
-
-.nav-link:hover {
-  color: rgb(219, 21, 21);
-}
-
-/*Barra-Navegacion*/
 .barberos-logo {
   margin-top: 6%;
   text-align: center;
@@ -50,12 +69,10 @@ header {
   font-size: 50px;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
-
 .barberos-logo:hover {
   color: rgb(219, 21, 21);
 }
 
-/*Pagina-Principal*/
 .titulo-inicio {
   text-align: center;
   margin-top: 10%;
@@ -102,14 +119,12 @@ header {
   margin-bottom: 2%;
 }
 
-/*Pagina-Escuela*/
 .titulo-escuela {
   color: rgb(219, 21, 21);
   text-align: center;
   margin-top: 10%;
 }
-
-.titulo-escuela :hover {
+.titulo-escuela:hover {
   color: rgb(41, 21, 219);
 }
 
@@ -124,14 +139,12 @@ header {
   transition: all 1s;
 }
 
-/*Pagina-Servicios*/
 .titulo-servicios {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: rgb(41, 21, 219);
   text-align: center;
   margin-top: 10%;
 }
-
 .titulo-servicios:hover {
   color: rgb(219, 21, 21);
 }
@@ -139,7 +152,6 @@ header {
 .nuestros-servicios {
   color: black;
 }
-
 .nuestros-servicios:hover {
   color: rgb(219, 21, 21);
 }
@@ -147,7 +159,6 @@ header {
 .nuestros_servicios-servicios {
   color: rgb(219, 21, 21);
 }
-
 .nuestros_servicios-servicios:hover {
   color: rgb(41, 21, 219);
 }
@@ -180,12 +191,10 @@ header {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: rgb(219, 21, 21);
 }
-
 .sub_titulo-servicios:hover {
   color: rgb(41, 21, 219);
 }
 
-/*Pagina-Nosotros*/
 .titulo-nosotros {
   text-align: center;
   margin-top: 10%;
@@ -205,7 +214,6 @@ header {
 .nosotros-nosotros {
   color: rgb(219, 21, 21);
 }
-
 .nosotros-nosotros:hover {
   color: rgb(41, 21, 219);
 }
@@ -257,13 +265,11 @@ header {
 #boton-nosotros {
   background: linear-gradient(#e66465, #9198e5);
 }
-
 #boton-nosotros:hover {
   filter: brightness(0.7);
   transition: all 1s;
 }
 
-/*Pagina-Contacto*/
 .formulario-contacto {
   text-align: center;
   padding: 15%;
@@ -288,31 +294,6 @@ header {
   background-color: rgba(255, 255, 255, 0.432);
 }
 
-/*Footer*/
-footer {
-  background: linear-gradient(#017a8a, #17555e);
-}
-
-.footer-cuadro a i {
-  color: white;
-  font-size: 1.8rem;
-  padding: 1%;
-}
-
-.footer-iconos {
-  text-align: center;
-}
-
-.footer-iconos :hover {
-  text-align: center;
-  color: rgb(219, 21, 21);
-}
-
-#footer-icono-whatsapp:hover {
-  color: rgb(41, 21, 219);
-}
-
-/*Cuando la pantalla es mayor a 768px, pasa esto*/
 @media (min-width: 768px) {
   /*Pagina-Principal*/
   .titulo-inicio {
